@@ -1,0 +1,24 @@
+{
+  "name": "bamazon-cli",
+  "version": "1.0.0",
+  "description": "A fake shopping service using mySQL to power the item database",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "node bamazonCustomer -> follow inquirer prompts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CTMoney/bamazon-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CTMoney/bamazon-CLI/issues"
+  },
+  "homepage": "https://github.com/CTMoney/bamazon-CLI#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
